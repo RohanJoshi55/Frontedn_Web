@@ -1,0 +1,94 @@
+#name {
+    font-size: 18px;
+    color: aqua;
+    margin: 30px;
+    padding: px;
+}
+
+#bio {
+    margin: 30px;
+    padding: px;
+
+}
+
+section {
+    width: 100%;
+    background: url(workingdesk.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  /*  background: rgba(255, 0, 0, .60)*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    Padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 30px;
+}
+
+#resume{
+    color: white;
+    size: 10px;
+    margin: 40px;
+}
+
+/*experience section css*/
+.experience {
+    background-color: black;
+    color: white;
+
+}
+
+td {
+    padding: 15px;
+}
+
+table {
+    border: 1px solid;
+}
+.watchresumelink{
+    text-decoration: none;
+    color: white;
+
+}
+.watchresumelink::before{
+    content:"";
+    color: white;
+    height: 3px;
+    width: 20px;
+    
+}
