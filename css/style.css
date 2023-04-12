@@ -1,3 +1,4 @@
+/*head section*/
 #name {
     font-size: 18px;
     color: aqua;
@@ -24,7 +25,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-  /*  background: rgba(255, 0, 0, .60)*/
+    /*background: rgba(255, 0, 0, .60)*/  
 }
 
 ul {
@@ -66,29 +67,63 @@ li a {
     margin: 40px;
 }
 
-/*experience section css*/
-.experience {
-    background-color: black;
-    color: white;
-
-}
-
-td {
-    padding: 15px;
-}
-
-table {
-    border: 1px solid;
-}
-.watchresumelink{
+.watchresumelink {
     text-decoration: none;
     color: white;
 
 }
-.watchresumelink::before{
-    content:"";
+
+.watchresumelink::before {
+    content: "";
     color: white;
     height: 3px;
     width: 20px;
-    
+
 }
+
+/*experience section css*/
+.experience {
+    background-color: black;
+    color: white;
+}
+
+table {
+    color: white;
+}
+
+tr {
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+/* project section */
+
+.right {
+    background-color: pink;
+    float: right;
+}
+
+.image1,.image2,.image3 {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+}
+
+
+h1,h3 {
+    margin: 0px;
+}
+
+.project {
+    padding: 40px;
+    margin: 50px;
+}
+
+.space {
+    margin: 20px;
+    padding: 30px;
+}
+
+
